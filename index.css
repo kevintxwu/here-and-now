@@ -1,0 +1,158 @@
+body {
+	font-family: 'Raleway', sans-serif;
+	background: url(img/evening.jpg) no-repeat center center fixed; 
+  	background-size: cover;
+}
+
+#logobox {
+	position: absolute;
+	top: 100px;
+	text-align: center;
+	width: 100%;
+}
+
+#logo {
+    height: 325px;
+    width: 1000px;
+    border-style: none;
+    background-image: url(img/logo.svg);
+    background-color: transparent;
+    background-size: 325px 325px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#logo:hover {
+	cursor: pointer;
+}
+
+#ribbonbox {
+	position: absolute;
+	top: 450px;
+	text-align: center;
+	width: 100%;
+}
+
+#ribbon {
+    height: 100px;
+    width: 1000px;
+    border-style: none;
+    background: url(img/ribbon.svg);
+    background-color: transparent;
+    background-size: 1000px 100px;
+    background-position: center;
+}
+
+#ribbon.p {
+	opacity: 1;
+}
+
+#sentence {
+	position: relative;
+	margin: auto;
+	top: 45px;
+	font-size: 30px;
+	width: 1000px;
+}
+
+#container {
+	position: absolute;
+	top: 450px;
+	width: 100%;
+	height: 69px;
+}
+
+#form {
+	margin: auto;
+	width: 1000px;
+}
+
+#location {
+	font-family: 'Raleway', sans-serif;
+	position: relative;
+	border-style: none;
+	top: -92px;
+	left: -25px;
+	font-size: 30px;
+	background: transparent;
+}
+
+#time {
+	font-family: 'Raleway', sans-serif;
+	position: relative;
+	border-style: none;
+	top: -92px;
+	left: -65px;
+	font-size: 30px;
+	background: transparent;
+	bottom: 100%;
+}
+
+#ampm {
+	font-family: 'Raleway', sans-serif;
+	position: relative;
+	border-style: none;
+	top: -92px;
+	left: -65px;
+	font-size: 30px;
+	background: transparent;
+}
+
+#category {
+	font-family: 'Raleway', sans-serif;
+	position: relative;
+	border-style: none;
+	top: -92px;
+	left: 160px;
+	font-size: 30px;
+	background: transparent;
+}
+
+#submit {
+	font-family: 'Raleway', sans-serif;
+	position: relative;
+	top: -92px;
+	left: 160px;
+	font-size: 30px;
+	border-style: none;
+	color: black;
+	border-radius: 20px;
+	background: transparent;
+	transition: 0.25s;
+    -webkit-transition: 0.25s;
+}
+
+#submit:hover {
+	background-color: rgba(255,255,255,0.9);
+	border-bottom: 5px solid rgba(255,255,255,0.9);
+	opacity: 0.75;
+	cursor: pointer;
+	transition: 0.25s;
+    -webkit-transition: 0.25s;
+}
+
+#addevent {
+	position: absolute;
+	top: 555px;
+	width: 100%;
+	text-align: center;
+}
+
+#adder {
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	border-style: none;
+	color: white;
+	background: transparent;
+	opacity: 0.8;
+	transition: 0.25s;
+    -webkit-transition: 0.25s;
+}
+
+#adder:hover {
+	cursor: pointer;
+	background: rgba(255,255,255,0.3);
+	border-radius: 5px;
+	transition: 0.25s;
+    -webkit-transition: 0.25s;
+}

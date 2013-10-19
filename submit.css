@@ -1,0 +1,147 @@
+body {
+	font-family: 'Raleway', 'Open Sans', sans-serif;
+	background-image: url(img/evening.jpg);
+	background-size: cover;
+}
+
+div#logo {
+	text-align:center;
+	height: 120px;
+	width:100%;
+	padding-top:10px;
+	opacity: 0.7;
+}
+
+img#logo {
+	height: 90%;
+}
+
+div#banner {
+	width:600px;
+	margin: 0  auto;
+	opacity: 0.7;
+}
+
+img#banner {
+	width:100%;
+}
+
+p#banner-text {
+	text-align: center;
+	width:600px;
+	margin: 0 auto;
+	position:relative;
+	top:-60px;
+	font-size: 22pt;
+	font-weight:100;
+}
+
+
+#container {
+	margin: auto;
+	padding-top: 0px;
+	width: 850px;
+	text-align: center;
+}
+
+.event {
+	padding: 15px;
+	background: rgba(255,255,255,0.7);
+	margin-top: -20px;
+	margin-bottom: 35px;
+	height: 250px;
+	-webkit-transition: background-color 0.5s ease;
+	transition: background-color 0.5s ease;
+}
+
+.event:hover{
+	background-color: rgba(255,255,255,0.9);
+	-webkit-transition: background-color 0.5s ease;
+	transition: background-color 0.5s ease;
+}
+
+*:focus{	
+	outline: none;
+	background: transparent;
+	font-family: Raleway;
+}
+
+.input {
+	font-family: Raleway;
+	text-align: center;
+	border-style: none;
+	font-size: 25px;
+    width: 500px;
+    height: 30px;
+    background-color: rgba(255,255,255,0.5)
+}
+
+.input-small {
+	font-family: Raleway;
+	text-align: center;
+	border-style: none;
+	font-size: 14px;
+    width: 400px;
+    height: 16px;
+    margin-bottom: 4px;
+    margin-top: 4px;
+    background-color: rgba(255,255,255,0.5)
+}
+
+#category {	
+	font-family: Raleway;
+	font-size: 16px;
+	color: gray;
+	margin-top: 4px;
+	background: transparent;
+	border-style: none;
+}
+
+#desc{
+	width: 50%;
+	float:left;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-align: center;
+}
+
+#description{
+	font-family: Raleway;
+	background: transparent;
+	border-style: none;
+	width = 50%
+	float:left;
+	overflow:none;
+	resize:none;
+	padding:5px;
+    background-color: rgba(255,255,255,0.5)
+}
+
+#address{
+	width:50%;
+	float: right;
+}
+
+.datetime{
+	font-family: Raleway;
+	background: transparent;
+	border: none;
+}
+
+#submit, #button{
+	font-size: 30px;
+	font-family: Raleway;
+	background-color: rgba(255,255,255,0.7);
+	border-style:none;
+	height: 70px;
+	width: 100%;
+	-webkit-transition: background-color 0.5s ease;
+	transition: background-color 0.5s ease;
+	margin-top: -15px;
+}
+
+#submit:hover, #button:hover{
+	background-color: rgba(255,255,255, 0.9);
+	-webkit-transition: background-color 0.5s ease;
+	transition: background-color 0.5s ease;
+}
